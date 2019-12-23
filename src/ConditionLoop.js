@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import timg from './logo.jpg'
+import logo from './ConditionLoop.css'
 
 class ConditionLoop extends Component {
     constructor(props){
@@ -10,11 +12,37 @@ class ConditionLoop extends Component {
                 { title: 'react零基础进阶单⻚页⾯面项⽬目实战', price: 59.8},
             ]
         }
-setTimeout(()=>{
-    this.setState({
-        showTitle:false
-    })
-},3000)
+// setTimeout(()=>{
+//     this.setState({
+//         showTitle:false
+//     })
+// },3000)
+//         this.showTitleFun=this.showTitleFun.bind(this)
+     }
+//第一种写法
+//     showTitleFun(){
+//         this.setState(
+//             {
+//                 showTitle:false
+//             }
+//         )
+//     }
+
+    //第二种写法，用箭头函数返回一个值
+    // showTitleFun=()=>{
+    //     this.setState(
+    //         {
+    //             showTitle:false
+    //         }
+    //     )
+    // }
+    //第三种写法
+    showTitleFun(){
+        this.setState(
+            {
+                showTitle:false
+            }
+        )
     }
     render() {
         let result=<h1>{this.state.showTitle?<h2>{this.props.title}</h2>:null}</h1>
@@ -37,6 +65,8 @@ setTimeout(()=>{
                     </li>
                 })}
             </ul>
+                <button onClick={()=>this.showTitleFun()}>不显示title</button>
+                <img src={timg} style={{width:'200px',height:'200px'}} className='snailimg'/>
             </div>
         );
     }

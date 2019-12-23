@@ -8,7 +8,8 @@ class App extends Component {
         super(props);
         this.state={
             msg1: "111111",
-            count:0
+            count:0,
+            inputval:'我是input的初始值'
         }
 
     }
@@ -37,6 +38,14 @@ class App extends Component {
         })
         console.log(this.state.count,"这里是先输出的")
     }
+    inputvalChange=(e)=>{
+        this.setState(
+            {
+                inputval:e.target.value
+            }
+        )
+
+    }
 
     render() {
         return (
@@ -48,6 +57,8 @@ class App extends Component {
                 <ProsDemo title="ProsDemo"></ProsDemo>
                 {/*条件渲染和数据循环渲染*/}
                 <ConditionLoop title="ConditionLoop"></ConditionLoop>
+                <h1>实现react双向数据绑定</h1>
+                <input type='text' value={this.state.inputval} onChange={e=>this.inputvalChange(e)}></input>
             </div>
         );
     }
