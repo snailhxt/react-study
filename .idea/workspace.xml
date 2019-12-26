@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb1e54b-4663-4e24-babb-864dff1b1e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ConditionLoop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LifeCycle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HOC/Context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HOC/Hoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HOOK/Effect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HOOK/Hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PureComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConditionLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConditionLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +49,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -75,6 +84,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,7 +109,8 @@
       <workItem from="1576808979812" duration="1876000" />
       <workItem from="1576811557704" duration="99000" />
       <workItem from="1576811686134" duration="5337000" />
-      <workItem from="1577071412565" duration="6734000" />
+      <workItem from="1577071412565" duration="11639000" />
+      <workItem from="1577192137475" duration="12789000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1576839679354</created>
@@ -105,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576839679354</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1577094221622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577094221622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
