@@ -8,6 +8,8 @@ import  Composition from './Composition'
 import Hoc from './HOC/Hoc'
 import Context from './HOC/Context'
 import Hook from './HOOK/Hook'
+import UseContext from './HOOK/UseContext'
+import UseReducerComp from './HOOK/UseReducerComp'
 // ReactDOM.render(<App></App>,document.getElementById('root'))
 //演示生命周期
 
@@ -26,4 +28,9 @@ import Hook from './HOOK/Hook'
 //上下文
 // ReactDOM.render(<Context ></Context>,document.getElementById('root'))
 //HOOK
-ReactDOM.render(<Hook ></Hook>,document.getElementById('root'))
+// ReactDOM.render(<Hook ></Hook>,document.getElementById('root'))
+//useContext
+
+
+ReactDOM.render(<UseReducerComp ></UseReducerComp>,document.getElementById('root'))
+
