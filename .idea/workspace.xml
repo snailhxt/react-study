@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb1e54b-4663-4e24-babb-864dff1b1e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HOOK/Reduxfloder/FirstRedux(react-redux).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOOK/Reduxfloder/FirstRedux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOOK/Reduxfloder/FirstReduxGaoJie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOOK/Reduxfloder/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOOK/Reduxfloder/reducerRedux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOOK/Reduxfloder/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HOOK/UseMemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReactRouter/Sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Saga/Saga-Sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Saga/Saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Saga/Userredux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Saga/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generator/Generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generator/Generator2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generator/Generator3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
@@ -29,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -46,7 +48,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/HOOK/Reduxfloder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/generator" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -56,15 +58,17 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/HOOK/Reduxfloder" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/generator" />
+      <recent name="$PROJECT_DIR$/src/Saga" />
       <recent name="$PROJECT_DIR$/src/HOOK/Reduxfloder" />
       <recent name="$PROJECT_DIR$/src/HOOK" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/HOOK/Reduxfloder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,7 +132,7 @@
       <workItem from="1578419238003" duration="111000" />
       <workItem from="1578469740208" duration="1649000" />
       <workItem from="1579085162392" duration="14587000" />
-      <workItem from="1579247699130" duration="7084000" />
+      <workItem from="1579247699130" duration="17762000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1576839679354</created>
@@ -158,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579088377881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="react-router学习">
+      <created>1579422888778</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579422888778</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="HOC高阶组件学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="HOC高阶组件学习" />
+    <MESSAGE value="react-router学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-router学习" />
   </component>
 </project>

@@ -57,5 +57,6 @@ import {firstReducer} from './HOOK/Reduxfloder/reducer'
 //     </Provider>  ,
 //     document.getElementById('root'))
 import Sample from './ReactRouter/Sample'
+import SagaSample from './Saga/Saga-Sample'
 
-ReactDOM.render(<Sample ></Sample>,document.getElementById('root'))
+ReactDOM.render(<SagaSample ></SagaSample>,document.getElementById('root'))
